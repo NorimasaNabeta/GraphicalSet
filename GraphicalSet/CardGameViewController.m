@@ -38,6 +38,11 @@
 {
     return nil;
 }
+-(void) updateCell:(UICollectionViewCell *)cell usingCard: (Card* )card
+{
+    return;
+}
+
 
 - (CardMatchingGame *)game
 {
@@ -92,11 +97,6 @@
 
 }
 
--(void) updateCell:(UICollectionViewCell *)cell usingCard: (Card* )card
-{
-    
-}
-
 
 - (NSInteger) numberOfSectionsInCollectionView:(UICollectionView *) collectionView
 {
@@ -104,22 +104,15 @@
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 12; //[myDataModel count];
+    return self.startingCount;
 }
 - (UICollectionViewCell*) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell *cell = [self.cardCollectionView dequeueReusableCellWithReuseIdentifier:@"Card" forIndexPath:indexPath];
     [self updateCell:cell usingCard:[self.game cardAtIndex:indexPath.item]];
     
-//    if ([cell isKindOfClass:[PlayingCardCollectionViewCell class]]) {
-//        PlayingCardCollectionViewCell *pccvc = (PlayingCardCollectionViewCell *)cell;
-//        PlayingCard *card = (PlayingCard*) [self.game cardAtIndex:indexPath.row];
-//        pccvc.playingCard.rank = card.rank;
-//        pccvc.playingCard.suit = card.suit;
-//    }
     return cell;
-    
-    
+        
 }
 
 @end
