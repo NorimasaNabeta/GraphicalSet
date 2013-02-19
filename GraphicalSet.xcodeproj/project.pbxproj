@@ -141,6 +141,14 @@
 		F2619FB716D3B529007295FB /* SetCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2619FB616D3B529007295FB /* SetCardGameViewController.m */; };
 		F2619FBA16D3B607007295FB /* SetCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2619FB916D3B607007295FB /* SetCardCollectionViewCell.m */; };
 		F2619FBD16D3B792007295FB /* SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2619FBC16D3B792007295FB /* SetCardView.m */; };
+		F2619FC616D4254B007295FB /* PlayingCardGameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FBE16D4254B007295FB /* PlayingCardGameIcon.png */; };
+		F2619FC716D4254B007295FB /* PlayingCardGameIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FBF16D4254B007295FB /* PlayingCardGameIcon@2x.png */; };
+		F2619FC816D4254B007295FB /* ScoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC016D4254B007295FB /* ScoreIcon.png */; };
+		F2619FC916D4254B007295FB /* ScoreIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC116D4254B007295FB /* ScoreIcon@2x.png */; };
+		F2619FCA16D4254B007295FB /* SetGameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC216D4254B007295FB /* SetGameIcon.png */; };
+		F2619FCB16D4254B007295FB /* SetGameIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC316D4254B007295FB /* SetGameIcon@2x.png */; };
+		F2619FCC16D4254B007295FB /* SettingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC416D4254B007295FB /* SettingIcon.png */; };
+		F2619FCD16D4254B007295FB /* SettingIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2619FC516D4254B007295FB /* SettingIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -297,6 +305,14 @@
 		F2619FB916D3B607007295FB /* SetCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardCollectionViewCell.m; sourceTree = "<group>"; };
 		F2619FBB16D3B792007295FB /* SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardView.h; sourceTree = "<group>"; };
 		F2619FBC16D3B792007295FB /* SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardView.m; sourceTree = "<group>"; };
+		F2619FBE16D4254B007295FB /* PlayingCardGameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayingCardGameIcon.png; sourceTree = "<group>"; };
+		F2619FBF16D4254B007295FB /* PlayingCardGameIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayingCardGameIcon@2x.png"; sourceTree = "<group>"; };
+		F2619FC016D4254B007295FB /* ScoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreIcon.png; sourceTree = "<group>"; };
+		F2619FC116D4254B007295FB /* ScoreIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScoreIcon@2x.png"; sourceTree = "<group>"; };
+		F2619FC216D4254B007295FB /* SetGameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetGameIcon.png; sourceTree = "<group>"; };
+		F2619FC316D4254B007295FB /* SetGameIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SetGameIcon@2x.png"; sourceTree = "<group>"; };
+		F2619FC416D4254B007295FB /* SettingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingIcon.png; sourceTree = "<group>"; };
+		F2619FC516D4254B007295FB /* SettingIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +379,14 @@
 		F2619DB816CF4CAC007295FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2619FBE16D4254B007295FB /* PlayingCardGameIcon.png */,
+				F2619FBF16D4254B007295FB /* PlayingCardGameIcon@2x.png */,
+				F2619FC016D4254B007295FB /* ScoreIcon.png */,
+				F2619FC116D4254B007295FB /* ScoreIcon@2x.png */,
+				F2619FC216D4254B007295FB /* SetGameIcon.png */,
+				F2619FC316D4254B007295FB /* SetGameIcon@2x.png */,
+				F2619FC416D4254B007295FB /* SettingIcon.png */,
+				F2619FC516D4254B007295FB /* SettingIcon@2x.png */,
 				F2619ED016D258B2007295FB /* cardimages */,
 				F2619DB916CF4CAC007295FB /* GraphicalSet-Info.plist */,
 				F2619DBA16CF4CAC007295FB /* InfoPlist.strings */,
@@ -694,6 +718,14 @@
 				F2619FA916D258B2007295FB /* spade-8@2x.png in Resources */,
 				F2619FAA16D258B2007295FB /* spade-9.png in Resources */,
 				F2619FAB16D258B2007295FB /* spade-9@2x.png in Resources */,
+				F2619FC616D4254B007295FB /* PlayingCardGameIcon.png in Resources */,
+				F2619FC716D4254B007295FB /* PlayingCardGameIcon@2x.png in Resources */,
+				F2619FC816D4254B007295FB /* ScoreIcon.png in Resources */,
+				F2619FC916D4254B007295FB /* ScoreIcon@2x.png in Resources */,
+				F2619FCA16D4254B007295FB /* SetGameIcon.png in Resources */,
+				F2619FCB16D4254B007295FB /* SetGameIcon@2x.png in Resources */,
+				F2619FCC16D4254B007295FB /* SettingIcon.png in Resources */,
+				F2619FCD16D4254B007295FB /* SettingIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

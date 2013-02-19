@@ -93,7 +93,7 @@
                             <constraint firstItem="yOi-be-xRk" firstAttribute="baseline" secondItem="Zof-P8-d65" secondAttribute="baseline" type="default" id="yHX-g7-iXZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1FD-XV-dPc"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="PlayingCardGameIcon.png" id="1FD-XV-dPc"/>
                     <connections>
                         <outlet property="cardCollectionView" destination="a4u-WP-cSA" id="EhD-xH-uEu"/>
                         <outlet property="flipLabel" destination="yOi-be-xRk" id="vPI-b9-BG5"/>
@@ -188,7 +188,7 @@
                             <constraint firstItem="166-nW-gnE" firstAttribute="leading" secondItem="oMq-EO-cgu" secondAttribute="leading" constant="26" id="sC5-GA-aJb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="eLj-kK-vbk"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="SetGameIcon.png" id="eLj-kK-vbk"/>
                     <connections>
                         <outlet property="cardCollectionView" destination="jiG-Gl-6c9" id="tJy-cv-jiM"/>
                         <outlet property="flipLabel" destination="166-nW-gnE" id="PTD-nS-LHl"/>
@@ -219,12 +219,14 @@
             <point key="canvasLocation" x="-277" y="11"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PlayingCardGameIcon.png" width="30" height="30"/>
+        <image name="SetGameIcon.png" width="30" height="30"/>
+    </resources>
     <classes>
         <class className="CardGameViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CardGameViewController.h"/>
             <relationships>
-                <relationship kind="action" name="flipCard:" candidateClass="UITapGestureRecognizer"/>
-                <relationship kind="action" name="redealCard:"/>
                 <relationship kind="outlet" name="cardCollectionView" candidateClass="UICollectionView"/>
                 <relationship kind="outlet" name="flipLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
