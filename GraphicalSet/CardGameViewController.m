@@ -7,7 +7,6 @@
 //
 
 #import "CardGameViewController.h"
-#import "CardMatchingGame.h"
 #import "PlayingCardCollectionViewCell.h"
 #import "PlayingCard.h"
 
@@ -15,9 +14,7 @@
 @property (nonatomic) int flipCount;
 @property (weak, nonatomic) IBOutlet UILabel *flipLabel;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-@property (weak, nonatomic) IBOutlet UICollectionView *cardCollectionView;
 
-@property (strong, nonatomic) CardMatchingGame *game;
 @end
 
 @implementation CardGameViewController
@@ -108,11 +105,10 @@
 }
 - (UICollectionViewCell*) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell *cell = [self.cardCollectionView dequeueReusableCellWithReuseIdentifier:@"Card" forIndexPath:indexPath];
+    UICollectionViewCell *cell = [self.cardCollectionView dequeueReusableCellWithReuseIdentifier:@"PlayingCard" forIndexPath:indexPath];
     [self updateCell:cell usingCard:[self.game cardAtIndex:indexPath.item]];
     
-    return cell;
-        
+    return cell;        
 }
 
 @end

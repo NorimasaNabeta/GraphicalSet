@@ -40,19 +40,5 @@
     }
 }
 
-/*
-- (IBAction)swipe:(UISwipeGestureRecognizer *)sender
-{
-    [UIView transitionWithView:self.playingCard
-                      duration:0.5
-                       options:UIViewAnimationOptionTransitionFlipFromRight
-                    animations:^{
-                        if (!self.playingCard.faceUp) [self drawRandomPlayingCard];
-                        self.playingCard.faceUp = !self.playingCard.faceUp;
-                    }
-                    completion:NULL];
-}
-*/
-
 
 @end
